@@ -1,0 +1,1 @@
+update uoms set id="101000103", code="GLASS", name="Glass", description=null, is_compound="1", base_uom_id="101000102", compound_unit="3.00000", uom_symbol="gl", decimal_places="0", created_by="0", created_at="2020-01-30 07:54:32.0", updated_by="0", updated_at="2020-02-04 09:27:15.0", is_deleted="0", is_system="0" where id=101000103 and is_deleted = 0 and is_synchable = 1;

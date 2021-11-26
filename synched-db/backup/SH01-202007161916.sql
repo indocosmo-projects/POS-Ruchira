@@ -1,0 +1,2 @@
+DELETE FROM currencies WHERE id=101000101;
+insert into currencies(id,code,name,description,symbol,fraction_name,fraction_symbol,decimal_places,rounding_id,is_base_currency,exchange_rate,exchange_rate_at,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000101","INR","Indian Rupe",null,"Rs","ps","ps","2","101000101","1","1.00000","2020-07-16","0","2020-07-16 07:15:52.0",null,null,"0","0");

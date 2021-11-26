@@ -1,0 +1,2 @@
+DELETE FROM departments WHERE id=101000101;
+insert into departments(id,code,name,description,sales_account_code,purchase_account_code,stock_account_code,cogs_account_code,wages_account_code,gst_collected_account_code,gst_paid_account_code,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000101","AC","AC department","","","","","","","","","0","2020-07-13 04:16:24.0",null,null,"0","0");

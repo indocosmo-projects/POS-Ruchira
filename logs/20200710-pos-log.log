@@ -1,0 +1,750 @@
+Date :2020-07-10
+Time :16:17:47
+Module : com.indocosmo.pos.common.utilities.PosDBUtil
+Method : openShopDbConnection: 
+Message : Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+java.sql.SQLInvalidAuthorizationSpecException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:123)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:71)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:109)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.openShopDbConnection(PosDBUtil.java:88)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.getShopDBConnection(PosDBUtil.java:56)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.initProvider(PosShopDBProviderBase.java:30)
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.<init>(PosDatabaseProvider.java:41)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.<init>(PosShopDBProviderBase.java:24)
+	at com.indocosmo.pos.data.providers.shopdb.PosAppVersionProvider.<init>(PosAppVersionProvider.java:28)
+	at com.indocosmo.pos.common.PosEnvSettings.updateAppVersion(PosEnvSettings.java:258)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:232)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:524)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:472)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:374)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:763)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:469)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	... 27 more
+
+Date :2020-07-10
+Time :16:17:47
+Module : com.indocosmo.pos.common.utilities.PosDBUtil
+Method : openShopDbConnection: 
+Message : Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+java.sql.SQLInvalidAuthorizationSpecException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:123)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:71)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:109)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.openShopDbConnection(PosDBUtil.java:88)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.getShopDBConnection(PosDBUtil.java:56)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.initProvider(PosShopDBProviderBase.java:30)
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.<init>(PosDatabaseProvider.java:41)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.<init>(PosShopDBProviderBase.java:24)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.<init>(PosShopProvider.java:24)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:277)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:524)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:472)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:374)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:763)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:469)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	... 27 more
+
+Date :2020-07-10
+Time :16:17:47
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT count(id) rec_count from shop
+Date :2020-07-10
+Time :16:17:47
+Module : com.indocosmo.pos.data.providers.shopdb.PosShopProvider
+Method : hasShopInformation
+Message : null
+java.lang.NullPointerException
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.executeQuery(PosDatabaseProvider.java:54)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.hasShopInformation(PosShopProvider.java:75)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:278)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Date :2020-07-10
+Time :16:17:47
+Module : com.indocosmo.pos.common.PosEnvSettings
+Method : init
+Message : Failed get shop information. Please check the log for more details.
+java.lang.Exception: Failed get shop information. Please check the log for more details.
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.hasShopInformation(PosShopProvider.java:84)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:278)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Date :2020-07-10
+Time :16:22:44
+Module : com.indocosmo.pos.common.utilities.PosDBUtil
+Method : openShopDbConnection: 
+Message : Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+java.sql.SQLInvalidAuthorizationSpecException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:123)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:71)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:109)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.openShopDbConnection(PosDBUtil.java:88)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.getShopDBConnection(PosDBUtil.java:56)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.initProvider(PosShopDBProviderBase.java:30)
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.<init>(PosDatabaseProvider.java:41)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.<init>(PosShopDBProviderBase.java:24)
+	at com.indocosmo.pos.data.providers.shopdb.PosAppVersionProvider.<init>(PosAppVersionProvider.java:28)
+	at com.indocosmo.pos.common.PosEnvSettings.updateAppVersion(PosEnvSettings.java:258)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:232)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:524)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:472)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:374)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:763)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:469)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	... 27 more
+
+Date :2020-07-10
+Time :16:22:44
+Module : com.indocosmo.pos.common.utilities.PosDBUtil
+Method : openShopDbConnection: 
+Message : Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+java.sql.SQLInvalidAuthorizationSpecException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:123)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:71)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:109)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.openShopDbConnection(PosDBUtil.java:88)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.getShopDBConnection(PosDBUtil.java:56)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.initProvider(PosShopDBProviderBase.java:30)
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.<init>(PosDatabaseProvider.java:41)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.<init>(PosShopDBProviderBase.java:24)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.<init>(PosShopProvider.java:24)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:277)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:524)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:472)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:374)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:763)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:469)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	... 27 more
+
+Date :2020-07-10
+Time :16:22:44
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT count(id) rec_count from shop
+Date :2020-07-10
+Time :16:22:44
+Module : com.indocosmo.pos.data.providers.shopdb.PosShopProvider
+Method : hasShopInformation
+Message : null
+java.lang.NullPointerException
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.executeQuery(PosDatabaseProvider.java:54)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.hasShopInformation(PosShopProvider.java:75)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:278)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Date :2020-07-10
+Time :16:22:44
+Module : com.indocosmo.pos.common.PosEnvSettings
+Method : init
+Message : Failed get shop information. Please check the log for more details.
+java.lang.Exception: Failed get shop information. Please check the log for more details.
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.hasShopInformation(PosShopProvider.java:84)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:278)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Date :2020-07-10
+Time :16:23:48
+Module : com.indocosmo.pos.common.utilities.PosDBUtil
+Method : openShopDbConnection: 
+Message : Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+java.sql.SQLInvalidAuthorizationSpecException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:123)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:71)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:109)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.openShopDbConnection(PosDBUtil.java:88)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.getShopDBConnection(PosDBUtil.java:56)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.initProvider(PosShopDBProviderBase.java:30)
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.<init>(PosDatabaseProvider.java:41)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.<init>(PosShopDBProviderBase.java:24)
+	at com.indocosmo.pos.data.providers.shopdb.PosAppVersionProvider.<init>(PosAppVersionProvider.java:28)
+	at com.indocosmo.pos.common.PosEnvSettings.updateAppVersion(PosEnvSettings.java:258)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:232)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:524)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:472)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:374)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:763)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:469)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	... 27 more
+
+Date :2020-07-10
+Time :16:23:48
+Module : com.indocosmo.pos.common.utilities.PosDBUtil
+Method : openShopDbConnection: 
+Message : Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+java.sql.SQLInvalidAuthorizationSpecException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:123)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:71)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:109)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.openShopDbConnection(PosDBUtil.java:88)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.getShopDBConnection(PosDBUtil.java:56)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.initProvider(PosShopDBProviderBase.java:30)
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.<init>(PosDatabaseProvider.java:41)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.<init>(PosShopDBProviderBase.java:24)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.<init>(PosShopProvider.java:24)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:277)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:524)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:472)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:374)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:763)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:469)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	... 27 more
+
+Date :2020-07-10
+Time :16:23:48
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT count(id) rec_count from shop
+Date :2020-07-10
+Time :16:23:48
+Module : com.indocosmo.pos.data.providers.shopdb.PosShopProvider
+Method : hasShopInformation
+Message : null
+java.lang.NullPointerException
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.executeQuery(PosDatabaseProvider.java:54)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.hasShopInformation(PosShopProvider.java:75)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:278)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Date :2020-07-10
+Time :16:23:48
+Module : com.indocosmo.pos.common.PosEnvSettings
+Method : init
+Message : Failed get shop information. Please check the log for more details.
+java.lang.Exception: Failed get shop information. Please check the log for more details.
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.hasShopInformation(PosShopProvider.java:84)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:278)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Date :2020-07-10
+Time :16:24:18
+Module : com.indocosmo.pos.common.utilities.PosDBUtil
+Method : openShopDbConnection: 
+Message : Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+java.sql.SQLInvalidAuthorizationSpecException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:123)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:71)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:109)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.openShopDbConnection(PosDBUtil.java:88)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.getShopDBConnection(PosDBUtil.java:56)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.initProvider(PosShopDBProviderBase.java:30)
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.<init>(PosDatabaseProvider.java:41)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.<init>(PosShopDBProviderBase.java:24)
+	at com.indocosmo.pos.data.providers.shopdb.PosAppVersionProvider.<init>(PosAppVersionProvider.java:28)
+	at com.indocosmo.pos.common.PosEnvSettings.updateAppVersion(PosEnvSettings.java:258)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:232)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:524)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:472)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:374)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:763)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:469)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	... 27 more
+
+Date :2020-07-10
+Time :16:24:18
+Module : com.indocosmo.pos.common.utilities.PosDBUtil
+Method : openShopDbConnection: 
+Message : Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+java.sql.SQLInvalidAuthorizationSpecException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:123)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:71)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:109)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.openShopDbConnection(PosDBUtil.java:88)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.getShopDBConnection(PosDBUtil.java:56)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.initProvider(PosShopDBProviderBase.java:30)
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.<init>(PosDatabaseProvider.java:41)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.<init>(PosShopDBProviderBase.java:24)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.<init>(PosShopProvider.java:24)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:277)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:524)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:472)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:374)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:763)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:469)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	... 27 more
+
+Date :2020-07-10
+Time :16:24:18
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT count(id) rec_count from shop
+Date :2020-07-10
+Time :16:24:18
+Module : com.indocosmo.pos.data.providers.shopdb.PosShopProvider
+Method : hasShopInformation
+Message : null
+java.lang.NullPointerException
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.executeQuery(PosDatabaseProvider.java:54)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.hasShopInformation(PosShopProvider.java:75)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:278)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Date :2020-07-10
+Time :16:24:18
+Module : com.indocosmo.pos.common.PosEnvSettings
+Method : init
+Message : Failed get shop information. Please check the log for more details.
+java.lang.Exception: Failed get shop information. Please check the log for more details.
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.hasShopInformation(PosShopProvider.java:84)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:278)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Date :2020-07-10
+Time :16:27:42
+Module : com.indocosmo.pos.common.utilities.PosDBUtil
+Method : openShopDbConnection: 
+Message : Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+java.sql.SQLInvalidAuthorizationSpecException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:123)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:71)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:109)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.openShopDbConnection(PosDBUtil.java:88)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.getShopDBConnection(PosDBUtil.java:56)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.initProvider(PosShopDBProviderBase.java:30)
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.<init>(PosDatabaseProvider.java:41)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.<init>(PosShopDBProviderBase.java:24)
+	at com.indocosmo.pos.data.providers.shopdb.PosAppVersionProvider.<init>(PosAppVersionProvider.java:28)
+	at com.indocosmo.pos.common.PosEnvSettings.updateAppVersion(PosEnvSettings.java:258)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:232)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:524)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:472)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:374)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:763)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:469)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	... 27 more
+
+Date :2020-07-10
+Time :16:27:42
+Module : com.indocosmo.pos.common.utilities.PosDBUtil
+Method : openShopDbConnection: 
+Message : Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+java.sql.SQLInvalidAuthorizationSpecException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.get(ExceptionMapper.java:123)
+	at org.mariadb.jdbc.internal.util.ExceptionMapper.throwException(ExceptionMapper.java:71)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:109)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.openShopDbConnection(PosDBUtil.java:88)
+	at com.indocosmo.pos.common.utilities.PosDBUtil.getShopDBConnection(PosDBUtil.java:56)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.initProvider(PosShopDBProviderBase.java:30)
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.<init>(PosDatabaseProvider.java:41)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopDBProviderBase.<init>(PosShopDBProviderBase.java:24)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.<init>(PosShopProvider.java:24)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:277)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.mariadb.jdbc.internal.util.dao.QueryException: Could not connect: Access denied for user 'root'@'localhost' (using password: NO)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:524)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:472)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:374)
+	at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:763)
+	at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:469)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:104)
+	... 27 more
+
+Date :2020-07-10
+Time :16:27:42
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT count(id) rec_count from shop
+Date :2020-07-10
+Time :16:27:42
+Module : com.indocosmo.pos.data.providers.shopdb.PosShopProvider
+Method : hasShopInformation
+Message : null
+java.lang.NullPointerException
+	at com.indocosmo.pos.data.providers.PosDatabaseProvider.executeQuery(PosDatabaseProvider.java:54)
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.hasShopInformation(PosShopProvider.java:75)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:278)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Date :2020-07-10
+Time :16:27:42
+Module : com.indocosmo.pos.common.PosEnvSettings
+Method : init
+Message : Failed get shop information. Please check the log for more details.
+java.lang.Exception: Failed get shop information. Please check the log for more details.
+	at com.indocosmo.pos.data.providers.shopdb.PosShopProvider.hasShopInformation(PosShopProvider.java:84)
+	at com.indocosmo.pos.common.PosEnvSettings.loadEnvSettings_StageOne(PosEnvSettings.java:278)
+	at com.indocosmo.pos.common.PosEnvSettings.init(PosEnvSettings.java:233)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:351)
+	at com.indocosmo.pos.common.PosEnvSettings.getInstance(PosEnvSettings.java:328)
+	at com.indocosmo.pos.PosApplication$1.run(PosApplication.java:46)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+

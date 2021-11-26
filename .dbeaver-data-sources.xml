@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="sqlite_jdbc-1434192788011-65459483" provider="generic" driver="sqlite_jdbc" name="SQLite - pos-shop-db.sqlite.bangi" create-date="1434193112090" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="/home/jojesh-13.2/Workshop/svn/pos-svn/pos/trunk/versions/posella/projects/desktop/pos-terminal/source/posella-terminal/sqlite/pos-shop-db.sqlite.bangi" url="jdbc:sqlite:/home/jojesh-13.2/Workshop/svn/pos-svn/pos/trunk/versions/posella/projects/desktop/pos-terminal/source/posella-terminal/sqlite/pos-shop-db.sqlite.bangi" user="" type="dev">
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="keyPath" value=""/>
+				<property name="host" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+		</connection>
+		<custom-property name="default.activeObject" value=""/>
+	</data-source>
+	<data-source id="mysql5-1434193274764-110509529" provider="mysql" driver="mysql5" name="MySQL - pmsdb" create-date="1434193305150" update-date="1434193416892" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="pmsdb" url="jdbc:mysql://localhost:3306/pmsdb" user="pmsuser" password="AwkVMFYjpQ==" home="/usr" type="dev">
+			<property name="@dbeaver-ssl@" value="false"/>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="keyPath" value=""/>
+				<property name="host" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+		</connection>
+		<custom-property name="default.activeObject" value=""/>
+	</data-source>
+</data-sources>

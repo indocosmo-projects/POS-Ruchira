@@ -1,0 +1,2365 @@
+Date :2021-07-26
+Time :20:03:18
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:03:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:18.000897
+Date :2021-07-26
+Time :20:03:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:18.000900
+Date :2021-07-26
+Time :20:03:18
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:03:21
+Module : 
+Method : 
+Message : DEBUG INFO : doDayBegin================Step 1 
+Date :2021-07-26
+Time :20:03:21
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT  max(pos_date) max_date FROM day_process where shop_id = 101 and day_process_type = 2
+Date :2021-07-26
+Time :20:03:21
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:21.000059
+Date :2021-07-26
+Time :20:03:21
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:21.000074
+Date :2021-07-26
+Time :20:03:21
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 15
+Date :2021-07-26
+Time :20:03:21
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT  max(pos_date) max_date FROM day_process where shop_id = 101 and day_process_type = 2
+Date :2021-07-26
+Time :20:03:21
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:21.000074
+Date :2021-07-26
+Time :20:03:21
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:21.000074
+Date :2021-07-26
+Time :20:03:21
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT table_name from v_sync_settings_terminal_to_server where parent_table_id=0
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:28.000604
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:28.000605
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : UPDATE order_hdrs set sync_status=0 where sync_status in (2,3)
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : 0 Rows modified.
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : UPDATE txn_staff_attendance set sync_status=0 where sync_status in (2,3)
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : 0 Rows modified.
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : UPDATE cashier_shifts set sync_status=0 where sync_status in (2,3)
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : 0 Rows modified.
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : UPDATE shift_summary set sync_status=0 where sync_status in (2,3)
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : 0 Rows modified.
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : UPDATE txn_cashouts set sync_status=0 where sync_status in (2,3)
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : 0 Rows modified.
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : UPDATE order_refunds set sync_status=0 where sync_status in (2,3)
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : 0 Rows modified.
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_sync_settings_terminal_to_server where sync_order != '' order by sync_order
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:28.000656
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:28.000656
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : select opay.id  as payment_id, opay.order_id as order_id, opay.paid_amount as paid_amount,opay.is_repayment as is_repayment, ocust.name as cust_name,ocust.code as cust_code  FROM order_payments opay  JOIN order_hdrs  ohdr ON  opay.order_id=ohdr.order_id  JOIN order_customers ocust ON ocust.order_id=ohdr.order_id  JOIN customer_types ctype on ocust.customer_type=ctype.id  where ctype.code='ROOM' AND payment_mode=3 AND opay.pms_sync_status<>1
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:28.000671
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:28.000671
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Initialising SyncDataFromServer Thread:22a2bc10-5547-46be-97e7-e87984b6f689
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT file_name FROM terminal_sync_status order by sync_date desc, file_name desc limit 1
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:28.000747
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:28.000757
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 10
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : mDayStartedListner================Step 2 
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Request string:synchronize={"file_name":"TEST-202107261228.sql"}
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================ doInitializePosTerminal Step 1 
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_currencies where is_base_currency='1'
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:28.000838
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:28.000858
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 20
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:03:28
+Module : 
+Method : 
+Message : DEBUG INFO : Terminating SyncDataFromServer Thread:22a2bc10-5547-46be-97e7-e87984b6f689 Start time:20:03:28:737 End time:20:03:28:888
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Terminating SyncDataFromServer Thread:22a2bc10-5547-46be-97e7-e87984b6f689 Start time:20:03:28:737 End time:20:03:29:18
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:28.000989
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from rounding
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000060
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000060
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 71
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000090
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 30
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from device_eft
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000098
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000098
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null and is_open_till
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000108
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000108
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================ doInitializePosTerminal Step 2 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from devices
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000108
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000108
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================ doInitializePosTerminal Step 3 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : PosOrderEntryForm================ PosOrderEntryForm Step 1 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : PosOrderEntryForm================ PosOrderEntryForm Step 2 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initialize================ initialize Step  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initialize================ after classPanelSettings Step  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ enter initControls  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after  Point pt  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after setDefaultCloseOperation  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after setUndecorated  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after setBounds  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after setPreferredSize  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after mContentPane  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after setBorder  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after setLayout  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after setContentPane  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ inside createTopPanles  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after mTopPanel  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after setBounds  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after setLayout  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after mContentPane.add  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ inside try  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_flash_messages
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000255
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000255
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ After super(parent)
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : mServiceType value================)TAKE_AWAY
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ inside setServiceTypeIfno
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : type================TAKE_AWAYdata=====null
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after mOrderServiceSelectionPanel
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ After setServiceTypeIfno  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after PosMainActionPanel 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after setPosActionPanelListner 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after createTopActionPanel  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after createTopTitlePanel  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after mTopPanel.add(mTitlePanel  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after mTopPanel.add(mOrderActionPanel)  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after createTopPanles  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after createMessagePanel  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after createScrollMessagePanel  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after createLeftPanel  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_hot_items where is_hot_item_1 order by ifnull(hot_item_1_display_order,100000),hot_item_1_display_order
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000387
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000403
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 16
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_hot_items where is_hot_item_2 order by ifnull(hot_item_2_display_order,100000),hot_item_2_display_order
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000419
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000421
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_hot_items where is_hot_item_3 order by ifnull(hot_item_3_display_order,100000),hot_item_3_display_order
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000431
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000431
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_hot_items where sub_class_code='null' order by ifnull(null,100000),null
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000441
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000441
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after createRightPanel  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after createItemListPanel  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after createBottomPanels  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : loadClassItems================ inside loadClassItems  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 1===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 2===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 3===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 4===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_menus where is_default_menu
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000526
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000526
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 5===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 7===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 8===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 9===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 10===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from menu_departments where menu_id=101000101 and is_deleted=0
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000542
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000558
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 16
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 11===================== MenuDepartments value[com.indocosmo.pos.data.beans.BeanMenuDepartment@6c5cbd20]
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 11.1===================== MenuDepartments value[com.indocosmo.pos.data.beans.BeanMenuDepartment@6c5cbd20]
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 11.2===================== MenuDepartments value[com.indocosmo.pos.data.beans.BeanMenuDepartment@6c5cbd20]
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : getListByDepartment 1=====================101000101
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : getListByDepartment 2=====================if==========>
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 12=====================departmentcom.indocosmo.pos.data.beans.BeanMenuDepartment@6c5cbd20
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : PosOrderEntryForm================ PosOrderEntryForm Step 1 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : PosOrderEntryForm================ PosOrderEntryForm Step 1 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : PosOrderEntryForm================ PosOrderEntryForm Step 1 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : PosOrderEntryForm================ PosOrderEntryForm Step 1 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 14===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : 15===================== 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after loadClassItems  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initControls================ after end  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initialize================ after initControls Step  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initialize================ after initVars Step  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initialize================ after setKeyboardListner Step  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initialize================ after addWindowListener Step  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initialize================ after buildCodeItemMaps Step  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initialize================ after applyWindowRenderingHack Step  
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : initialize================ initialize Step end 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================ doInitializePosTerminal Step 4 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================ doInitializePosTerminal Step 5 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================ doInitializePosTerminal Step 6 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================ doInitializePosTerminal Step 7 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================ doInitializePosTerminal Step 8 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================ doInitializePosTerminal Step 9 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null and is_open_till=1 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000652
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000652
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================Step 2.1.1 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:29.000652
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:29.000667
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 15
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================Step 2.1.2 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================Step 3 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : setMenuOptions================Step 4 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO :  MenuButtons.DayStart================Step 5=========satrt process 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO :  MenuButtons.DayStart================Step 5=========satrt completed 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : doDayProcCommonTask================Step 2.1.3 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : mDayStartedListner================Step 2.1 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : mDayStartedListner================Step 2.2 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : mDayStartedListner================Step 2.3 
+Date :2021-07-26
+Time :20:03:29
+Module : 
+Method : 
+Message : DEBUG INFO : mDayStartedListner================Step 2.4 
+Date :2021-07-26
+Time :20:03:38
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:03:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:38.000897
+Date :2021-07-26
+Time :20:03:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:38.000897
+Date :2021-07-26
+Time :20:03:38
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT file_name FROM terminal_sync_status order by sync_date desc, file_name desc limit 1
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:43.000230
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:43.000233
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Request string:synchronize={"file_name":"TEST-202107261228.sql"}
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT id, title,CASE type 	WHEN 1 THEN CONCAT("<b>",content,"</b>")  WHEN 2 THEN CONCAT("<font color='red'><b>",content,"</font>")END AS content,from_date, type,display_status,created_at from flash_messages_hdr WHERE (type=1 OR type=2)  AND display_status=1 AND is_deleted=0 AND  cast( from_date  AS date) <= cast(now() AS date) AND  cast(to_date AS date) >= cast(now() AS date)
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:43.000251
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:43.000254
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : select id from pos_system_functions where code = 'open_till'
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:43.000623
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:43.000632
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 9
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : select can_execute from pos_user_group_functions where user_group_id=1 and pos_system_function_id=2
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:43.000638
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:43.000641
+Date :2021-07-26
+Time :20:03:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null and is_open_till=1 and pos_id='101000101'
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:44.000804
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:44.000806
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : select cash_remaining from shift_summary where closing_time is not null order by closing_time desc LIMIT 1
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:44.000836
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:44.000837
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : select cash_remaining from shift_summary where closing_time is not null order by closing_time desc LIMIT 1
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:44.000849
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:44.000850
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null 
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:44.000869
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:44.000872
+Date :2021-07-26
+Time :20:03:44
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:03:45
+Module : 
+Method : 
+Message : DEBUG INFO : select * from shift_summary where opening_date = '2021-08-10' and shift_id = 1
+Date :2021-07-26
+Time :20:03:45
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:45.000994
+Date :2021-07-26
+Time :20:03:45
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:45.000996
+Date :2021-07-26
+Time :20:03:45
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : openShift============
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null 
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:48.000594
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:48.000597
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_cashiers where id = 101000101
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:48.000604
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:48.000610
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 6
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:48.000905
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:48.000908
+Date :2021-07-26
+Time :20:03:48
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:03:50
+Module : 
+Method : 
+Message : DEBUG INFO : select * from card_payment_recovery
+Date :2021-07-26
+Time :20:03:50
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:50.000971
+Date :2021-07-26
+Time :20:03:50
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:50.000980
+Date :2021-07-26
+Time :20:03:50
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 9
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : select id from pos_system_functions where code = 'order_entry'
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:55.000149
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:55.000150
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : select can_execute from pos_user_group_functions where user_group_id=1 and pos_system_function_id=9
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:55.000150
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:55.000150
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null 
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:55.000150
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:55.000165
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 15
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ inside setServiceTypeIfno
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : type================TAKE_AWAYdata=====null
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after mOrderServiceSelectionPanel
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_promotions order by date_from desc, date_to asc, time_from  desc,time_to asc
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:55.000173
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:55.000188
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 15
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_customers where code='WALKIN'
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:55.000204
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:55.000220
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 16
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_customer_types where id=0
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:55.000220
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:55.000235
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 15
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ inside setServiceTypeIfno
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : type================TAKE_AWAYdata=====null
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : createTopPanles================ after mOrderServiceSelectionPanel
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : PosOrderEntryForm================ PosOrderEntryForm Step 1 
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : PosOrderEntryForm================ PosOrderEntryForm Step 1 
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : PosOrderEntryForm================ PosOrderEntryForm Step 1 
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : PosOrderEntryForm================ PosOrderEntryForm Step 1 
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : select * from card_payment_recovery
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:55.000289
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:55.000304
+Date :2021-07-26
+Time :20:03:55
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 15
+Date :2021-07-26
+Time :20:03:58
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:03:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:03:58.000900
+Date :2021-07-26
+Time :20:03:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:03:58.000900
+Date :2021-07-26
+Time :20:03:58
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:04:08
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:04:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:04:08.000906
+Date :2021-07-26
+Time :20:04:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:04:08.000910
+Date :2021-07-26
+Time :20:04:08
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:04:18
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:04:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:04:18.000902
+Date :2021-07-26
+Time :20:04:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:04:18.000902
+Date :2021-07-26
+Time :20:04:18
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:04:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:04:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:04:28.000896
+Date :2021-07-26
+Time :20:04:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:04:28.000896
+Date :2021-07-26
+Time :20:04:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:04:38
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:04:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:04:38.000910
+Date :2021-07-26
+Time :20:04:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:04:38.000910
+Date :2021-07-26
+Time :20:04:38
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:04:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT file_name FROM terminal_sync_status order by sync_date desc, file_name desc limit 1
+Date :2021-07-26
+Time :20:04:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:04:43.000233
+Date :2021-07-26
+Time :20:04:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:04:43.000236
+Date :2021-07-26
+Time :20:04:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:04:43
+Module : 
+Method : 
+Message : DEBUG INFO : Request string:synchronize={"file_name":"TEST-202107261228.sql"}
+Date :2021-07-26
+Time :20:04:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT id, title,CASE type 	WHEN 1 THEN CONCAT("<b>",content,"</b>")  WHEN 2 THEN CONCAT("<font color='red'><b>",content,"</font>")END AS content,from_date, type,display_status,created_at from flash_messages_hdr WHERE (type=1 OR type=2)  AND display_status=1 AND is_deleted=0 AND  cast( from_date  AS date) <= cast(now() AS date) AND  cast(to_date AS date) >= cast(now() AS date)
+Date :2021-07-26
+Time :20:04:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:04:43.000265
+Date :2021-07-26
+Time :20:04:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:04:43.000268
+Date :2021-07-26
+Time :20:04:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:04:48
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:04:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:04:48.000904
+Date :2021-07-26
+Time :20:04:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:04:48.000908
+Date :2021-07-26
+Time :20:04:48
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:04:58
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:04:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:04:58.000897
+Date :2021-07-26
+Time :20:04:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:04:58.000897
+Date :2021-07-26
+Time :20:04:58
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:05:08
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:05:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:05:08.000894
+Date :2021-07-26
+Time :20:05:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:05:08.000894
+Date :2021-07-26
+Time :20:05:08
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:05:18
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:05:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:05:18.000906
+Date :2021-07-26
+Time :20:05:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:05:18.000907
+Date :2021-07-26
+Time :20:05:18
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-07-26
+Time :20:05:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:05:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:05:28.000893
+Date :2021-07-26
+Time :20:05:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:05:28.000897
+Date :2021-07-26
+Time :20:05:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:05:38
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:05:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:05:38.000904
+Date :2021-07-26
+Time :20:05:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:05:38.000906
+Date :2021-07-26
+Time :20:05:38
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-07-26
+Time :20:05:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT file_name FROM terminal_sync_status order by sync_date desc, file_name desc limit 1
+Date :2021-07-26
+Time :20:05:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:05:43.000235
+Date :2021-07-26
+Time :20:05:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:05:43.000239
+Date :2021-07-26
+Time :20:05:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:05:43
+Module : 
+Method : 
+Message : DEBUG INFO : Request string:synchronize={"file_name":"TEST-202107261228.sql"}
+Date :2021-07-26
+Time :20:05:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT id, title,CASE type 	WHEN 1 THEN CONCAT("<b>",content,"</b>")  WHEN 2 THEN CONCAT("<font color='red'><b>",content,"</font>")END AS content,from_date, type,display_status,created_at from flash_messages_hdr WHERE (type=1 OR type=2)  AND display_status=1 AND is_deleted=0 AND  cast( from_date  AS date) <= cast(now() AS date) AND  cast(to_date AS date) >= cast(now() AS date)
+Date :2021-07-26
+Time :20:05:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:05:43.000572
+Date :2021-07-26
+Time :20:05:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:05:43.000576
+Date :2021-07-26
+Time :20:05:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:05:48
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:05:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:05:48.000906
+Date :2021-07-26
+Time :20:05:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:05:48.000910
+Date :2021-07-26
+Time :20:05:48
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:05:58
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:05:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:05:58.000900
+Date :2021-07-26
+Time :20:05:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:05:58.000900
+Date :2021-07-26
+Time :20:05:58
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:06:08
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:06:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:06:08.000898
+Date :2021-07-26
+Time :20:06:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:06:08.000900
+Date :2021-07-26
+Time :20:06:08
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-07-26
+Time :20:06:18
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:06:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:06:18.000908
+Date :2021-07-26
+Time :20:06:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:06:18.000908
+Date :2021-07-26
+Time :20:06:18
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:06:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:06:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:06:28.000896
+Date :2021-07-26
+Time :20:06:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:06:28.000896
+Date :2021-07-26
+Time :20:06:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:06:38
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:06:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:06:38.000893
+Date :2021-07-26
+Time :20:06:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:06:38.000894
+Date :2021-07-26
+Time :20:06:38
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-07-26
+Time :20:06:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT file_name FROM terminal_sync_status order by sync_date desc, file_name desc limit 1
+Date :2021-07-26
+Time :20:06:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:06:43.000231
+Date :2021-07-26
+Time :20:06:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:06:43.000235
+Date :2021-07-26
+Time :20:06:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:06:43
+Module : 
+Method : 
+Message : DEBUG INFO : Request string:synchronize={"file_name":"TEST-202107261228.sql"}
+Date :2021-07-26
+Time :20:06:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT id, title,CASE type 	WHEN 1 THEN CONCAT("<b>",content,"</b>")  WHEN 2 THEN CONCAT("<font color='red'><b>",content,"</font>")END AS content,from_date, type,display_status,created_at from flash_messages_hdr WHERE (type=1 OR type=2)  AND display_status=1 AND is_deleted=0 AND  cast( from_date  AS date) <= cast(now() AS date) AND  cast(to_date AS date) >= cast(now() AS date)
+Date :2021-07-26
+Time :20:06:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:06:43.000258
+Date :2021-07-26
+Time :20:06:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:06:43.000261
+Date :2021-07-26
+Time :20:06:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:06:48
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:06:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:06:48.000906
+Date :2021-07-26
+Time :20:06:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:06:48.000910
+Date :2021-07-26
+Time :20:06:48
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:06:58
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:06:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:06:58.000908
+Date :2021-07-26
+Time :20:06:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:06:58.000908
+Date :2021-07-26
+Time :20:06:58
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:07:08
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:07:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:07:08.000897
+Date :2021-07-26
+Time :20:07:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:07:08.000897
+Date :2021-07-26
+Time :20:07:08
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:07:18
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:07:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:07:18.000896
+Date :2021-07-26
+Time :20:07:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:07:18.000896
+Date :2021-07-26
+Time :20:07:18
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:07:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:07:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:07:28.000893
+Date :2021-07-26
+Time :20:07:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:07:28.000893
+Date :2021-07-26
+Time :20:07:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:07:38
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:07:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:07:38.000900
+Date :2021-07-26
+Time :20:07:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:07:38.000904
+Date :2021-07-26
+Time :20:07:38
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:07:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT file_name FROM terminal_sync_status order by sync_date desc, file_name desc limit 1
+Date :2021-07-26
+Time :20:07:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:07:43.000230
+Date :2021-07-26
+Time :20:07:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:07:43.000234
+Date :2021-07-26
+Time :20:07:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:07:43
+Module : 
+Method : 
+Message : DEBUG INFO : Request string:synchronize={"file_name":"TEST-202107261228.sql"}
+Date :2021-07-26
+Time :20:07:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT id, title,CASE type 	WHEN 1 THEN CONCAT("<b>",content,"</b>")  WHEN 2 THEN CONCAT("<font color='red'><b>",content,"</font>")END AS content,from_date, type,display_status,created_at from flash_messages_hdr WHERE (type=1 OR type=2)  AND display_status=1 AND is_deleted=0 AND  cast( from_date  AS date) <= cast(now() AS date) AND  cast(to_date AS date) >= cast(now() AS date)
+Date :2021-07-26
+Time :20:07:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:07:43.000259
+Date :2021-07-26
+Time :20:07:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:07:43.000261
+Date :2021-07-26
+Time :20:07:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-07-26
+Time :20:07:48
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:07:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:07:48.000897
+Date :2021-07-26
+Time :20:07:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:07:48.000901
+Date :2021-07-26
+Time :20:07:48
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:07:58
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:07:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:07:58.000905
+Date :2021-07-26
+Time :20:07:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:07:58.000905
+Date :2021-07-26
+Time :20:07:58
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:08:08
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:08:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:08:08.000897
+Date :2021-07-26
+Time :20:08:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:08:08.000900
+Date :2021-07-26
+Time :20:08:08
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-07-26
+Time :20:08:18
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:08:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:08:18.000893
+Date :2021-07-26
+Time :20:08:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:08:18.000893
+Date :2021-07-26
+Time :20:08:18
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:08:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:08:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:08:28.000891
+Date :2021-07-26
+Time :20:08:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:08:28.000892
+Date :2021-07-26
+Time :20:08:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-07-26
+Time :20:08:38
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:08:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:08:38.000905
+Date :2021-07-26
+Time :20:08:38
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:08:38.000905
+Date :2021-07-26
+Time :20:08:38
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:08:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT file_name FROM terminal_sync_status order by sync_date desc, file_name desc limit 1
+Date :2021-07-26
+Time :20:08:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:08:43.000233
+Date :2021-07-26
+Time :20:08:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:08:43.000238
+Date :2021-07-26
+Time :20:08:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 5
+Date :2021-07-26
+Time :20:08:43
+Module : 
+Method : 
+Message : DEBUG INFO : Request string:synchronize={"file_name":"TEST-202107261228.sql"}
+Date :2021-07-26
+Time :20:08:43
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT id, title,CASE type 	WHEN 1 THEN CONCAT("<b>",content,"</b>")  WHEN 2 THEN CONCAT("<font color='red'><b>",content,"</font>")END AS content,from_date, type,display_status,created_at from flash_messages_hdr WHERE (type=1 OR type=2)  AND display_status=1 AND is_deleted=0 AND  cast( from_date  AS date) <= cast(now() AS date) AND  cast(to_date AS date) >= cast(now() AS date)
+Date :2021-07-26
+Time :20:08:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:08:43.000263
+Date :2021-07-26
+Time :20:08:43
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:08:43.000265
+Date :2021-07-26
+Time :20:08:43
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-07-26
+Time :20:08:48
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:08:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:08:48.000894
+Date :2021-07-26
+Time :20:08:48
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:08:48.000898
+Date :2021-07-26
+Time :20:08:48
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-07-26
+Time :20:08:58
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:08:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:08:58.000892
+Date :2021-07-26
+Time :20:08:58
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:08:58.000894
+Date :2021-07-26
+Time :20:08:58
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-07-26
+Time :20:09:08
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:09:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:09:08.000898
+Date :2021-07-26
+Time :20:09:08
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:09:08.000898
+Date :2021-07-26
+Time :20:09:08
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:09:18
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:09:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:09:18.000895
+Date :2021-07-26
+Time :20:09:18
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:09:18.000895
+Date :2021-07-26
+Time :20:09:18
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 0
+Date :2021-07-26
+Time :20:09:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-07-26
+Time :20:09:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-07-26 20:09:28.000902
+Date :2021-07-26
+Time :20:09:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-07-26 20:09:28.000905
+Date :2021-07-26
+Time :20:09:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3

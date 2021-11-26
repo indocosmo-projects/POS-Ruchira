@@ -1,0 +1,16 @@
+update item_class_display_order set id="101000121", menu_id="101000101", sub_class_id="102000102", display_order="1", is_deleted="0" where id=101000121 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000122", menu_id="101000101", sub_class_id="102", display_order="2", is_deleted="0" where id=101000122 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000123", menu_id="101000101", sub_class_id="108", display_order="3", is_deleted="0" where id=101000123 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000124", menu_id="101000101", sub_class_id="104", display_order="4", is_deleted="0" where id=101000124 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000125", menu_id="101000101", sub_class_id="105", display_order="5", is_deleted="0" where id=101000125 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000126", menu_id="101000101", sub_class_id="107", display_order="6", is_deleted="0" where id=101000126 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000127", menu_id="101000101", sub_class_id="106", display_order="7", is_deleted="0" where id=101000127 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000128", menu_id="101000101", sub_class_id="112", display_order="8", is_deleted="0" where id=101000128 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000129", menu_id="101000101", sub_class_id="125", display_order="9", is_deleted="0" where id=101000129 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000130", menu_id="101000101", sub_class_id="111", display_order="10", is_deleted="0" where id=101000130 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000131", menu_id="101000101", sub_class_id="102000101", display_order="11", is_deleted="0" where id=101000131 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000132", menu_id="101000101", sub_class_id="113", display_order="12", is_deleted="0" where id=101000132 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000133", menu_id="101000101", sub_class_id="103", display_order="13", is_deleted="0" where id=101000133 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000134", menu_id="101000101", sub_class_id="114", display_order="14", is_deleted="0" where id=101000134 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000135", menu_id="101000101", sub_class_id="109", display_order="15", is_deleted="0" where id=101000135 and is_deleted = 0 and is_synchable = 1;
+update item_class_display_order set id="101000136", menu_id="101000101", sub_class_id="110", display_order="16", is_deleted="0" where id=101000136 and is_deleted = 0 and is_synchable = 1;

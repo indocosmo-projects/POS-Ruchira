@@ -1,0 +1,1 @@
+update uoms set id="101000105", code="BTL1LTR", name="Bottle  1 ltr", description=null, is_compound="1", base_uom_id="24", compound_unit="1000.00000", uom_symbol="1B", decimal_places="2", created_by="0", created_at="2020-02-01 05:02:34.0", updated_by="0", updated_at="2020-02-01 05:20:54.0", is_deleted="0", is_system="0" where id=101000105 and is_deleted = 0 and is_synchable = 1;

@@ -1,0 +1,1 @@
+update uoms set id="101000104", code="CASE12", name="CASE12", description=null, is_compound="1", base_uom_id="101000108", compound_unit="12.00000", uom_symbol="BTL", decimal_places="1", created_by="0", created_at="2020-01-30 08:05:38.0", updated_by="0", updated_at="2020-02-06 03:27:03.0", is_deleted="0", is_system="0" where id=101000104 and is_deleted = 0 and is_synchable = 1;

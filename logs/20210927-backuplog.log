@@ -1,0 +1,138 @@
+Date & Time:Mon, 27 Sep 2021 10:56:10 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Mon, 27 Sep 2021 10:56:10 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://192.168.1.38:3306/ics21
+
+
+Date & Time:Mon, 27 Sep 2021 10:56:11 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Mon, 27 Sep 2021 10:56:11 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Mon, 27 Sep 2021 10:56:20 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Mon, 27 Sep 2021 10:56:20 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File 101-101-202109271056
+
+
+Date & Time:Mon, 27 Sep 2021 11:00:25 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Mon, 27 Sep 2021 11:00:25 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://192.168.1.38:3306/ics21
+
+
+Date & Time:Mon, 27 Sep 2021 11:00:26 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Mon, 27 Sep 2021 11:00:26 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Mon, 27 Sep 2021 11:00:26 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Exception .\101-101-202109271056.sql (The system cannot find the file specified)
+
+
+Date & Time:Mon, 27 Sep 2021 11:23:28 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Mon, 27 Sep 2021 11:23:28 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://192.168.1.38:3306/ics21
+
+
+Date & Time:Mon, 27 Sep 2021 11:23:29 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Mon, 27 Sep 2021 11:23:29 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Mon, 27 Sep 2021 11:23:31 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 7
+
+
+Date & Time:Mon, 27 Sep 2021 11:23:31 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File 101-101-202109271123
+
+
+Date & Time:Mon, 27 Sep 2021 11:56:01 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Mon, 27 Sep 2021 11:56:01 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://192.168.1.38:3306/ics21
+
+
+Date & Time:Mon, 27 Sep 2021 11:56:03 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Mon, 27 Sep 2021 11:56:03 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Mon, 27 Sep 2021 11:56:05 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Mon, 27 Sep 2021 11:56:05 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File 101-101-202109271156
+
+

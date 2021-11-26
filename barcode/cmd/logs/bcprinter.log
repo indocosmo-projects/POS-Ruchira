@@ -1,0 +1,4 @@
+Connection to 192.168.1.57 failed (Error NT_STATUS_HOST_UNREACHABLE)
+Connection to 192.168.1.57 failed (Error NT_STATUS_IO_TIMEOUT)
+Connection to 192.168.1.57 failed (Error NT_STATUS_NETWORK_UNREACHABLE)
+Connection to 192.168.1.57 failed (Error NT_STATUS_HOST_UNREACHABLE)

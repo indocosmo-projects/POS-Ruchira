@@ -1,0 +1,10 @@
+DELETE FROM voucher_class WHERE id=101000102;
+insert into voucher_class(id,name,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000102","test voucher","0","2021-10-21 10:42:30.0",null,null,"0","0");
+DELETE FROM voucher_class WHERE id=101000101;
+insert into voucher_class(id,name,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000101","dghdsgfsdgf","0","2021-10-21 10:41:54.0",null,null,"0","0");
+update voucher_types set is_deleted=1 where id =101000102;
+update voucher_types set is_deleted=1 where id =101000101;
+DELETE FROM voucher_class WHERE id=101000102;
+insert into voucher_class(id,name,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000102","test voucher","0","2021-10-21 10:42:30.0",null,null,"0","0");
+DELETE FROM voucher_types WHERE id=101000103;
+insert into voucher_types(id,code,name,description,voucher_type,value,is_overridable,is_change_payable,account_code,is_valid,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000103","101","promot","","101000102","1000.00000","0","1","PR","1","0","2021-10-21 10:42:50.0",null,null,"0","0");

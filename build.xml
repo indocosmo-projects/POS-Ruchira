@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="build" name="Create Runnable Jar for Project pos-terminal-v3 with libraries in sub-folder">
+	<!--this file was created by Eclipse Runnable JAR Export Wizard-->
+	<!--ANT 1.7 is required                                        -->
+	<target name="build">
+		
+		<property name="build-folder" value="./build/eezDine" />
+		<property name="build-target-jar" value="pos-terminal.jar" />
+		
+		<delete dir="${build-folder}" />
+		<jar destfile="${build-folder}/${build-target-jar}">
+			<manifest>
+				<attribute name="Main-Class" value="com.indocosmo.pos.PosApplication" />
+				<attribute name="Class-Path" value=". libs/exp4j-0.2.9.jar 
+					libs/sqlite-jdbc-3.7.2.jar 
+					libs/RXTXcomm.jar 
+					libs/commons-codec-1.6.jar
+					libs/commons-beanutils-1.7.jar 
+					libs/commons-collections.jar 
+					libs/commons-lang.jar 
+				    libs/commons-logging-1.1.1.jar 
+					libs/ezmorph.jar 
+					libs/json-lib-2.4-jdk15.jar
+					libs/poi-3.8-20120326.jar
+					libs/javax.mail.jar
+					libs/mysql-connector-java-5.1.35-bin.jar
+					libs/mariadb-java-client-1.5.4.jar
+					libs/core-3.3.0.jar
+					libs/pos-backup-util.jar
+					libs/mysql-backup4j-1.0.1.jar 
+					libs/mysql-connector-java-8.0.11.jar
+					libs/org.apache.commons.io.jar
+					libs/slf4j-api-1.7.26.jar
+					libs/zt-zip-1.4.jar
+					libs/commons-csv-1.5.jar
+					libs/pos-server.jar
+					libs/json-simple-1.1.1.jar
+					barcode-print-util.jar"
+				/>
+			</manifest>
+			<fileset dir="./bin" />
+		</jar>
+		
+		<mkdir dir="${build-folder}/" />
+		<copy file="./rxtxParallel.dll" todir="${build-folder}" />
+		<copy file="./rxtxSerial.dll" todir="${build-folder}" />
+		<copy file="./pos-terminal.properties" todir="${build-folder}" />
+		<copy file="./pos-terminal-ui.properties" todir="${build-folder}" />
+		<copy file="./pos-terminal-print.properties" todir="${build-folder}" />
+		<copy file="./pos-terminal-barcode.properties" todir="${build-folder}" />
+		<copy file="./pos-terminal-receipt-kitchen-default.properties" todir="${build-folder}" />
+		<copy file="./pos-terminal-receipt-pymt-default.properties" todir="${build-folder}" />
+		<copy file="./pos-terminal-receipt-pymt-prd.properties" todir="${build-folder}" />
+		<copy file="./pos-terminal.sh" todir="${build-folder}" />
+		<copy file="./pos-terminal.bat" todir="${build-folder}" />
+		<copy file="./posella-ws-support.jar" todir="${build-folder}" />
+		<copy file="./posella-ws-support.bat" todir="${build-folder}" />
+		<copy file="./posella-ws-support.sh" todir="${build-folder}" />
+		<copy file="./barcode-print-util.jar" todir="${build-folder}" />
+
+		<mkdir dir="${build-folder}/libs" />
+		<copy file="./libs/exp4j-0.2.9.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/sqlite-jdbc-3.7.2.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/mysql-connector-java-5.1.35-bin.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/mariadb-java-client-1.5.4.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/RXTXcomm.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/commons-beanutils-1.7.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/commons-collections.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/commons-lang.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/commons-logging-1.1.1.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/commons-codec-1.6.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/ezmorph.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/json-lib-2.4-jdk15.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/poi-3.8-20120326.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/javax.mail.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/core-3.3.0.jar" todir="${build-folder}/libs" />		
+		<copy file="./libs/mysql-backup4j-1.0.1.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/mysql-connector-java-8.0.11.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/org.apache.commons.io.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/slf4j-api-1.7.26.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/zt-zip-1.4.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/pos-backup-util.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/commons-csv-1.5.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/pos-server.jar" todir="${build-folder}/libs" />
+		<copy file="./libs/json-simple-1.1.1.jar" todir="${build-folder}/libs" />
+		
+		<mkdir dir="${build-folder}/libs/shared" />
+		<copy file="./libs/shared/librxtxParallel.so" todir="${build-folder}/libs/shared/librxtxParallel.so" />
+		<copy file="./libs/shared/librxtxSerial.so" todir="${build-folder}/libs/shared/librxtxSerial.so" />
+		
+		<mkdir dir="${build-folder}/report" />
+		<mkdir dir="${build-folder}/logs" />
+		<mkdir dir="${build-folder}/bills" />
+		<mkdir dir="${build-folder}/export" />
+
+		<mkdir dir="${build-folder}/sqlite" />
+		<copy file="./sqlite-empty/posella-shop-db-v4.sqlite" todir="${build-folder}/sqlite" />
+		<copy file="./sqlite-empty/posella-terminal-db-v4.sqlite" todir="${build-folder}/sqlite" />
+		
+		<mkdir dir="${build-folder}/sqlite-empty" />
+		<copy file="./sqlite-empty/posella-shop-db-v4.sqlite" todir="${build-folder}/sqlite-empty" />
+		<copy file="./sqlite-empty/posella-terminal-db-v4.sqlite" todir="${build-folder}/sqlite-empty" />
+		
+		<mkdir dir="${build-folder}/logos" />
+		
+		<copy file="./logos/posella_logo_white.ico" todir="${build-folder}/logos" />
+		<copy file="./logos/posella_logo.png" todir="${build-folder}/logos" />
+		
+		<mkdir dir="${build-folder}/barcode" />
+			<mkdir dir="${build-folder}/barcode/cmd" />
+			<mkdir dir="${build-folder}/barcode/cmd/logs" />
+				<copy file="./barcode/cmd/print-barcode.bat" todir="${build-folder}/barcode/cmd" />
+				<copy file="./barcode/cmd/print-barcode.sh" todir="${build-folder}/barcode/cmd" />		
+			<mkdir dir="${build-folder}/barcode/data" />
+				<copy file="./barcode/data/barcode-item.csv" todir="${build-folder}/barcode/data" />
+			<mkdir dir="${build-folder}/barcode/layout" />
+				<copy file="./barcode/layout/barcode-layout.tpl" todir="${build-folder}/barcode/layout" />
+				<copy file="./barcode/layout/barcode-nutrition-section-a.tpl" todir="${build-folder}/barcode/layout" />
+				<copy file="./barcode/layout/barcode-nutrition-section-b.tpl" todir="${build-folder}/barcode/layout" />
+				<copy file="./barcode/layout/barcode-nutrition.main.tpl" todir="${build-folder}/barcode/layout" />
+			<mkdir dir="${build-folder}/barcode/tmp" />
+            
+        <mkdir dir="${build-folder}/MySQL_DB" />
+		<copy file="./MySQL_DB/posella_shop_db.sql" todir="${build-folder}/MySQL_DB" />
+	 				
+		<chmod file="${build-folder}/*.sh" perm="755" osfamily="unix" />
+		
+	
+	
+	</target>
+</project>

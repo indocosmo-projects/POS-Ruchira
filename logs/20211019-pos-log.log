@@ -1,0 +1,1130 @@
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT count(id) rec_count from shop
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:27.000047
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:27.000135
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 88
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : select * from shop
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:27.000147
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:27.000152
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 5
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:27.000204
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:27.000206
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_stations where code='101'
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:27.000213
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:27.000237
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 24
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : select * from pos_scanner_patterns
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:27.000245
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:27.000265
+Date :2021-10-19
+Time :18:17:27
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 20
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from shop_shifts where is_deleted =  0 and is_active = 1
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000023
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000042
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 19
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_flash_messages
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000049
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000072
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 23
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_serving_tables order by id asc
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000088
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000137
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 49
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_serving_table_locations
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000143
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000148
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 5
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null 
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000291
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000317
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 26
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_cashiers where id = 101000102
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000327
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000356
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 29
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from card_payment_recovery
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000362
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000378
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 16
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT  pos_date open_date FROM day_process dp where 1 > (select count(pos_date) from day_process where day_process_type =2 and pos_date=dp.pos_date)
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000397
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000413
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 16
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from tax_param
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000420
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000437
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 17
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from bill_params
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000445
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000461
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 16
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from rounding
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000470
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000493
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 23
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_currencies where is_base_currency='1'
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000502
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000524
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 22
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from rounding
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000532
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000534
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from device_eft
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000538
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000539
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null and is_open_till
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000544
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000547
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from devices
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000553
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000554
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from kitchen_printers
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000564
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000565
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_kitchens
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000622
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000643
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 21
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from receipt_printers
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000651
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000652
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 1
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_flash_messages
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000826
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000829
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : select * from terminal_sync_table_settings where is_sync_terminal_to_server=1 AND parent_table_id=0
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:28.000951
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:28.000978
+Date :2021-10-19
+Time :18:17:28
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 27
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT * FROM customer_types WHERE code='WALKIN' and is_system=1
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000051
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000088
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 37
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_hot_items where is_hot_item_1 order by ifnull(hot_item_1_display_order,100000),hot_item_1_display_order
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000163
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000204
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 41
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_hot_items where is_hot_item_2 order by ifnull(hot_item_2_display_order,100000),hot_item_2_display_order
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000208
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000213
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 5
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_hot_items where is_hot_item_3 order by ifnull(hot_item_3_display_order,100000),hot_item_3_display_order
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000216
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000220
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_hot_items where sub_class_code='null' order by ifnull(null,100000),null
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000231
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000235
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 4
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from payment_modes
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000403
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000436
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 33
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_menus where is_default_menu
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000659
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000708
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 49
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_menus where not is_deleted and is_active order by id asc LIMIT 1
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000711
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000744
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 33
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from menu_departments where menu_id=101000101 and is_deleted=0
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000747
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000749
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_item_classes where department_id =1 and super_class_id is null order by ifnull(display_order,100000),display_order
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000753
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000771
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 18
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT cls.*,icd.`display_order` as item_display_order FROM `v_item_classes` as cls left join   item_class_display_order as icd on cls.id= icd.sub_class_id  and icd.menu_id='101000101' where  cls.super_class_id='101000101'
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000776
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000811
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 35
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select sitem.*,itm_order.display_order as item_disply_order from v_sale_items as sitem left  join  sale_item_display_order as  itm_order on sitem.id=itm_order.sale_item_id and sitem.sub_class_id=itm_order.sub_class_id and itm_order.sub_class_id='101000102'and itm_order.menu_id='101000101' and sitem.sub_class_id='101000102' where sitem.sub_class_id='101000102' order by  itm_order.display_order
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000815
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000881
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 66
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : In Loop...Chicken 65
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_item_classes where id =101000102
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000891
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000896
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 5
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_discounts where code='DEFDSCNON'
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000899
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000922
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 23
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_sale_item_promotions where sale_item_id=101000101
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000931
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000950
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 19
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_promotions where is_item_specific=0
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000952
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000955
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select * from taxes where id=1
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000957
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:29.000978
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 21
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : select 1 from v_sale_item_choices where sale_item_code='101' LIMIT 1
+Date :2021-10-19
+Time :18:17:29
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:29.000989
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:30.000043
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 54
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : select * from uoms where id=43
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:30.000046
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:30.000061
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 15
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT * FROM customers WHERE code='WALKIN' and is_system=1
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:30.000117
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:30.000138
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 21
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : select * from v_customer_types where id=0
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:30.000141
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:30.000146
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 5
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : select * from gst_reg_type
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:30.000148
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:30.000182
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 34
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : select * from gst_party_type
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:30.000185
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:30.000206
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 21
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : select * from pos_scanner_patterns
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:30.000279
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:30.000281
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null and is_open_till=1 
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:30.000313
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:30.000315
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null 
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:30.000328
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:30.000330
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 2
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : select * from cashier_shifts where closing_date is null 
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:30.000383
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:30.000386
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 3
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : delete from login_sessions where pos_id=101000102
+Date :2021-10-19
+Time :18:17:30
+Module : 
+Method : 
+Message : DEBUG INFO : 0 Rows modified.
+Date :2021-10-19
+Time :18:17:31
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT file_name FROM terminal_sync_status order by sync_date desc, file_name desc limit 1
+Date :2021-10-19
+Time :18:17:31
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:31.000539
+Date :2021-10-19
+Time :18:17:31
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:31.000587
+Date :2021-10-19
+Time :18:17:31
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 48
+Date :2021-10-19
+Time :18:17:31
+Module : 
+Method : 
+Message : DEBUG INFO : Request string:synchronize={"file_name":"101-202109271314.sql"}
+Date :2021-10-19
+Time :18:17:31
+Module : 
+Method : 
+Message : DEBUG INFO : SELECT id, title,CASE type 	WHEN 1 THEN CONCAT("<b>",content,"</b>")  WHEN 2 THEN CONCAT("<font color='red'><b>",content,"</font>")END AS content,from_date, type,display_status,created_at from flash_messages_hdr WHERE (type=1 OR type=2)  AND display_status=1 AND is_deleted=0 AND  cast( from_date  AS date) <= cast(now() AS date) AND  cast(to_date AS date) >= cast(now() AS date)
+Date :2021-10-19
+Time :18:17:31
+Module : 
+Method : 
+Message : DEBUG INFO : Query Started At : 2021-10-19 18:17:31.000823
+Date :2021-10-19
+Time :18:17:31
+Module : 
+Method : 
+Message : DEBUG INFO : Query Ended At : 2021-10-19 18:17:31.000828
+Date :2021-10-19
+Time :18:17:31
+Module : 
+Method : 
+Message : DEBUG INFO : Total Time : 5
+Date :2021-10-19
+Time :18:17:37
+Module : 
+Method : 
+Message : DEBUG INFO : delete from login_sessions where pos_id=101000102
+Date :2021-10-19
+Time :18:17:37
+Module : 
+Method : 
+Message : DEBUG INFO : 1 Rows modified.

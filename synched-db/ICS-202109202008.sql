@@ -1,0 +1,10 @@
+DELETE FROM item_classes WHERE id=101000103;
+insert into item_classes(id,code,hsn_code,name,alternative_name,department_id,description,menu_id,super_class_id,tax_calculation_method,taxation_based_on,tax_id,tax_exemption,tax_group_id,display_order,print_order,account_code,fg_color,bg_color,item_thumb,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000103","CAKE","","Cake","","1","",null,"101000101","0",null,"101000101","0","101000101",null,null,"","#FFFFFF","#A9A9A9","","0","2021-09-20 08:06:41.0",null,null,"0","0");
+DELETE FROM item_classes WHERE id=101000104;
+insert into item_classes(id,code,hsn_code,name,alternative_name,department_id,description,menu_id,super_class_id,tax_calculation_method,taxation_based_on,tax_id,tax_exemption,tax_group_id,display_order,print_order,account_code,fg_color,bg_color,item_thumb,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000104","SUP","","Soup","","1","",null,"101000101","0",null,"101000101","0","101000101",null,null,"","#FFFFFF","#A9A9A9","","0","2021-09-20 08:07:12.0",null,null,"0","0");
+DELETE FROM item_classes WHERE id=101000105;
+insert into item_classes(id,code,hsn_code,name,alternative_name,department_id,description,menu_id,super_class_id,tax_calculation_method,taxation_based_on,tax_id,tax_exemption,tax_group_id,display_order,print_order,account_code,fg_color,bg_color,item_thumb,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000105","PZA","","PIZZA","","1","",null,"101000101","0",null,"101000101","0","101000101",null,null,"","#FFFFFF","#A9A9A9","","0","2021-09-20 08:07:31.0",null,null,"0","0");
+DELETE FROM menus WHERE id=101000101;
+insert into menus(id,code,name,description,is_default_menu,enable_h1_button,enable_h2_button,enable_h3_button,color,is_active,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000101","MENU1","menu 1","","0","1","1","1","#000000","1","0","2021-09-20 08:08:00.0",null,null,"0","0");
+DELETE FROM menu_departments WHERE id=101000101;
+insert into menu_departments(id,menu_id,department_id,is_deleted) values ("101000101","101000101","1","0");

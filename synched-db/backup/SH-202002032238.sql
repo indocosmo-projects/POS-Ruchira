@@ -1,0 +1,1 @@
+update uoms set id="8", code="BTL", name="Bottle 650", description="BOTTLES", is_compound="1", base_uom_id="24", compound_unit="650.00000", uom_symbol="BTL", decimal_places="0", created_by="0", created_at="2015-05-13 07:54:18.0", updated_by="0", updated_at="2020-02-04 09:07:20.0", is_deleted="0", is_system="0" where id=8 and is_deleted = 0 and is_synchable = 1;

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/RXTXcomm.jar"/>
+	<classpathentry kind="lib" path="libs/commons-collections.jar"/>
+	<classpathentry kind="lib" path="libs/commons-lang.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="libs/javax.mail.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.35-bin.jar"/>
+	<classpathentry kind="lib" path="libs/mariadb-java-client-1.5.4.jar"/>
+	<classpathentry kind="lib" path="libs/poi-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="libs/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-backup4j-1.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/pos-backup-util.jar"/>
+	<classpathentry kind="lib" path="libs/zt-zip-1.4.jar"/>
+	<classpathentry kind="lib" path="libs/commons-beanutils-1.7.jar"/>
+	<classpathentry kind="lib" path="libs/core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="libs/exp4j-0.2.9.jar"/>
+	<classpathentry kind="lib" path="libs/ezmorph.jar"/>
+	<classpathentry kind="lib" path="libs/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.26.jar"/>
+	<classpathentry kind="lib" path="libs/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="libs/commons-csv-1.5.jar"/>
+	<classpathentry kind="lib" path="barcode-print-util.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/posella-server"/>
+	<classpathentry kind="lib" path="D:/Udhayan/Udhay_Online_POS/pos-terminal V1SP/libs/jackson-annotations-2.9.0.jar"/>
+	<classpathentry kind="lib" path="D:/Udhayan/Udhay_Online_POS/pos-terminal V1SP/libs/jackson-databind-2.9.7.jar"/>
+	<classpathentry kind="lib" path="D:/Udhayan/Udhay_Online_POS/pos-terminal V1SP/libs/jackson-core-2.9.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

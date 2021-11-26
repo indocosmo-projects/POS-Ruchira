@@ -1,0 +1,4 @@
+update sale_item_display_order set id="103000113", menu_id="103000101", sub_class_id="103000105", sale_item_id="103000113", display_order="1", is_deleted="0" where id=103000113 and is_deleted = 0 and is_synchable = 1;
+update sale_item_display_order set id="103000114", menu_id="103000101", sub_class_id="103000105", sale_item_id="103000114", display_order="2", is_deleted="0" where id=103000114 and is_deleted = 0 and is_synchable = 1;
+update sale_item_display_order set id="103000115", menu_id="103000101", sub_class_id="103000105", sale_item_id="103000115", display_order="3", is_deleted="0" where id=103000115 and is_deleted = 0 and is_synchable = 1;
+update sale_item_display_order set id="103000116", menu_id="103000101", sub_class_id="103000105", sale_item_id="103000116", display_order="4", is_deleted="0" where id=103000116 and is_deleted = 0 and is_synchable = 1;

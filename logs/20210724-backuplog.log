@@ -1,0 +1,1758 @@
+Date & Time:Sat, 24 Jul 2021 09:00:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 09:00:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 09:00:40 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 09:00:40 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 09:00:42 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 09:00:42 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240900
+
+
+Date & Time:Sat, 24 Jul 2021 10:38:56 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 10:38:56 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 10:38:58 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 10:38:58 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 10:39:01 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 10:39:01 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107241038
+
+
+Date & Time:Sat, 24 Jul 2021 11:00:36 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 11:00:36 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/newbalabar_terminal_db
+
+
+Date & Time:Sat, 24 Jul 2021 11:00:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 11:00:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 11:00:41 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 11:00:41 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File SH01-T01-202107241100
+
+
+Date & Time:Sat, 24 Jul 2021 11:24:06 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 11:24:06 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 11:24:07 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 11:24:07 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 11:24:10 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 11:24:10 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107241124
+
+
+Date & Time:Sat, 24 Jul 2021 11:35:16 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 11:35:16 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 11:35:18 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 11:35:18 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 11:35:21 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 11:35:21 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107241135
+
+
+Date & Time:Sat, 24 Jul 2021 11:41:02 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 11:41:02 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 11:41:03 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 11:41:03 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 11:41:06 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 11:41:06 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107241141
+
+
+Date & Time:Sat, 24 Jul 2021 12:26:09 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 12:26:09 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/newbalabar_terminal_db
+
+
+Date & Time:Sat, 24 Jul 2021 12:26:11 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:26:11 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:26:13 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 12:26:13 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File SH01-T01-202107241226
+
+
+Date & Time:Sat, 24 Jul 2021 12:31:52 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 12:31:52 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/newbalabar_terminal_db
+
+
+Date & Time:Sat, 24 Jul 2021 12:31:54 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:31:54 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:31:56 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 12:31:56 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File SH01-T01-202107241231
+
+
+Date & Time:Sat, 24 Jul 2021 12:36:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 12:36:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 12:36:40 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:36:40 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:36:43 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 12:36:43 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107241236
+
+
+Date & Time:Sat, 24 Jul 2021 12:39:47 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 12:39:47 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 12:39:48 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:39:48 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:39:51 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 12:39:51 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107241239
+
+
+Date & Time:Sat, 24 Jul 2021 12:44:22 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 12:44:22 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 12:44:23 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:44:23 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:44:26 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 12:44:26 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107241244
+
+
+Date & Time:Sat, 24 Jul 2021 12:48:18 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 12:48:18 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 12:48:19 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:48:19 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:48:21 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Exception .\TEST-T01-202107241244.sql (The system cannot find the file specified)
+
+
+Date & Time:Sat, 24 Jul 2021 12:52:17 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 12:52:17 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 12:52:18 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:52:18 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:52:21 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 7
+
+
+Date & Time:Sat, 24 Jul 2021 12:52:21 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107241252
+
+
+Date & Time:Sat, 24 Jul 2021 12:55:28 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 12:55:28 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 12:55:29 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:55:29 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:55:32 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 12:55:32 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107241255
+
+
+Date & Time:Sat, 24 Jul 2021 12:58:58 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 12:58:58 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 12:59:00 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:59:00 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 12:59:02 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 12:59:02 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107241258
+
+
+Date & Time:Sat, 24 Jul 2021 13:08:37 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 13:08:37 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 13:08:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 13:08:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 13:08:41 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 13:08:41 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240108
+
+
+Date & Time:Sat, 24 Jul 2021 13:13:39 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 13:13:39 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 13:13:41 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 13:13:41 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 13:13:43 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 13:13:43 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240113
+
+
+Date & Time:Sat, 24 Jul 2021 13:18:32 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 13:18:32 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 13:18:34 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 13:18:34 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 13:18:36 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 13:18:36 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240118
+
+
+Date & Time:Sat, 24 Jul 2021 13:23:43 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 13:23:43 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 13:23:44 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 13:23:44 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 13:23:47 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 13:23:47 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240123
+
+
+Date & Time:Sat, 24 Jul 2021 13:56:36 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 13:56:36 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 13:56:37 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 13:56:37 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 13:56:40 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 13:56:40 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240156
+
+
+Date & Time:Sat, 24 Jul 2021 14:02:13 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 14:02:13 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 14:02:15 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:02:15 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:02:17 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 14:02:17 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240202
+
+
+Date & Time:Sat, 24 Jul 2021 14:09:52 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 14:09:52 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 14:09:53 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:09:53 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:09:56 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 14:09:56 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240209
+
+
+Date & Time:Sat, 24 Jul 2021 14:18:27 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 14:18:27 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 14:18:28 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:18:28 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:18:31 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 14:18:31 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240218
+
+
+Date & Time:Sat, 24 Jul 2021 14:24:29 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 14:24:29 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 14:24:31 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:24:31 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:24:33 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 14:24:33 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240224
+
+
+Date & Time:Sat, 24 Jul 2021 14:29:06 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 14:29:06 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 14:29:08 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:29:08 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:29:10 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 14:29:10 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240229
+
+
+Date & Time:Sat, 24 Jul 2021 14:33:40 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 14:33:40 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 14:33:42 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:33:42 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:33:45 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 14:33:45 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240233
+
+
+Date & Time:Sat, 24 Jul 2021 14:34:59 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 14:34:59 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 14:35:01 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:35:01 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:35:03 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 14:35:04 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240234
+
+
+Date & Time:Sat, 24 Jul 2021 14:52:16 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 14:52:16 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 14:52:18 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:52:18 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:52:20 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 14:52:20 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240252
+
+
+Date & Time:Sat, 24 Jul 2021 14:58:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 14:58:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 14:58:39 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:58:39 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 14:58:42 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 14:58:42 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240258
+
+
+Date & Time:Sat, 24 Jul 2021 15:02:04 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 15:02:04 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 15:02:06 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:02:06 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:02:08 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 15:02:08 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240302
+
+
+Date & Time:Sat, 24 Jul 2021 15:05:52 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 15:05:52 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 15:05:53 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:05:53 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:05:56 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 15:05:56 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240305
+
+
+Date & Time:Sat, 24 Jul 2021 15:09:54 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 15:09:54 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 15:09:56 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:09:56 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:09:58 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 15:09:58 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240309
+
+
+Date & Time:Sat, 24 Jul 2021 15:13:05 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 15:13:05 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 15:13:07 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:13:07 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:13:09 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 15:13:09 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240313
+
+
+Date & Time:Sat, 24 Jul 2021 15:18:25 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 15:18:25 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/newbalabar_terminal_db
+
+
+Date & Time:Sat, 24 Jul 2021 15:18:28 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:18:28 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:18:30 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 15:18:30 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File SH01-T01-202107240318
+
+
+Date & Time:Sat, 24 Jul 2021 15:22:39 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 15:22:39 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 15:22:40 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:22:40 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:22:43 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 15:22:43 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240322
+
+
+Date & Time:Sat, 24 Jul 2021 15:26:53 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 15:26:53 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 15:26:55 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:26:55 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:26:57 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 15:26:57 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240326
+
+
+Date & Time:Sat, 24 Jul 2021 15:31:52 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 15:31:52 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 15:31:54 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:31:54 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:31:56 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 15:31:56 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240331
+
+
+Date & Time:Sat, 24 Jul 2021 15:41:51 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 15:41:51 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 15:41:53 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:41:53 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:41:55 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 15:41:55 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240341
+
+
+Date & Time:Sat, 24 Jul 2021 15:52:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 15:52:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 15:52:40 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:52:40 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 15:52:43 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 15:52:43 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240352
+
+
+Date & Time:Sat, 24 Jul 2021 16:15:01 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 16:15:01 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 16:15:03 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 16:15:03 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 16:15:06 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 16:15:06 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240415
+
+
+Date & Time:Sat, 24 Jul 2021 16:16:41 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 16:16:41 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 16:16:43 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 16:16:43 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 16:16:45 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 16:16:45 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240416
+
+
+Date & Time:Sat, 24 Jul 2021 16:31:07 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 16:31:07 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/demo_db_terminal
+
+
+Date & Time:Sat, 24 Jul 2021 16:31:08 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 16:31:08 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 16:31:11 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 16:31:11 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240431
+
+
+Date & Time:Sat, 24 Jul 2021 16:45:03 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 16:45:03 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/pandha2_db
+
+
+Date & Time:Sat, 24 Jul 2021 16:45:06 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 16:45:06 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 16:45:09 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 16:45:09 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240445
+
+
+Date & Time:Sat, 24 Jul 2021 16:48:18 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 16:48:18 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/pandha2_db
+
+
+Date & Time:Sat, 24 Jul 2021 16:48:19 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 16:48:19 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 16:48:22 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 16:48:22 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240448
+
+
+Date & Time:Sat, 24 Jul 2021 17:01:30 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 17:01:30 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/pandha2_db
+
+
+Date & Time:Sat, 24 Jul 2021 17:01:31 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 17:01:31 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 17:01:34 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 17:01:34 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240501
+
+
+Date & Time:Sat, 24 Jul 2021 17:09:25 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 17:09:25 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/pandha2_db
+
+
+Date & Time:Sat, 24 Jul 2021 17:09:26 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 17:09:26 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 17:09:29 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 17:09:29 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240509
+
+
+Date & Time:Sat, 24 Jul 2021 17:12:36 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 17:12:36 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/pandha2_db
+
+
+Date & Time:Sat, 24 Jul 2021 17:12:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 17:12:38 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 17:12:41 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 17:12:41 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240512
+
+
+Date & Time:Sat, 24 Jul 2021 17:28:08 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 17:28:08 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/pandha2_db
+
+
+Date & Time:Sat, 24 Jul 2021 17:28:10 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 17:28:10 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 17:28:12 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 17:28:12 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File TEST-T01-202107240528
+
+
+Date & Time:Sat, 24 Jul 2021 17:29:45 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Sat, 24 Jul 2021 17:29:45 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/newbalabar_terminal_db
+
+
+Date & Time:Sat, 24 Jul 2021 17:29:46 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Sat, 24 Jul 2021 17:29:46 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Sat, 24 Jul 2021 17:29:49 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Sat, 24 Jul 2021 17:29:49 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File SH01-T01-202107240529
+
+

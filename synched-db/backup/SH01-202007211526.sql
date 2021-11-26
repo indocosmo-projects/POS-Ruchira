@@ -1,0 +1,2 @@
+DELETE FROM item_classes WHERE id=101000148;
+insert into item_classes(id,code,hsn_code,name,alternative_name,department_id,description,menu_id,super_class_id,tax_calculation_method,taxation_based_on,tax_id,tax_exemption,tax_group_id,display_order,print_order,account_code,fg_color,bg_color,item_thumb,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000148","VGG","","VEGETABLE","","1","",null,"101000101","0",null,null,"0",null,null,null,"","#FFFFFF","#d81673","","0","2020-07-21 03:25:07.0",null,null,"0","0");

@@ -1,0 +1,1 @@
+update uoms set id="101000101", code="LTR", name="Liter", description=null, is_compound="1", base_uom_id="24", compound_unit="1000.00000", uom_symbol="Ltr", decimal_places="3", created_by="0", created_at="2020-01-30 11:48:55.0", updated_by="0", updated_at="2020-01-31 05:28:49.0", is_deleted="0", is_system="0" where id=101000101 and is_deleted = 0 and is_synchable = 1;

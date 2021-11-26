@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="build_release" name="Create Runnable Jar for Project pos-terminal-v3 with libraries in sub-folder">
+	<!--this file was created by Eclipse Runnable JAR Export Wizard-->
+	<!--ANT 1.7 is required                                        -->
+	<target name="build_release">
+
+		<property name="build-folder" value="./build/eezDine" />
+		
+		<!-- Copy empty DBs -->
+		
+		<copy file="./sqlite-empty/posella-shop-db-v4.sqlite" todir="${build-folder}/sqlite" overwrite="true"/>
+		<copy file="./sqlite-empty/posella-terminal-db-v4.sqlite" todir="${build-folder}/sqlite" overwrite="true"/>
+
+		<!--Obfuscation of jar files -->
+
+		<exec executable="cmd" dir="./tools" osfamily="windows">
+			<arg value="/C" />
+			<arg value="proguard.bat" />
+			<arg value="@./proguard.conf" />
+			<arg value="-verbose" />
+		</exec>
+
+		<exec executable="/bin/bash" dir="./tools" osfamily="unix">
+			<arg value="proguard.sh" />
+			<arg value="@./proguard.conf" />
+			<arg value="-verbose" />
+		</exec>
+
+		<delete file="${build-folder}/pos-terminal.jar" />
+		<move file="${build-folder}/obf_pos-terminal.jar" tofile="${build-folder}/pos-terminal.jar" />
+
+	</target>
+</project>

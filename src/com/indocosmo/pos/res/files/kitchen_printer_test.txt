@@ -1,0 +1,15 @@
+
+             POS Ver.1.1.0
+          Printer Test utility
+        Testing Kitchen Printer
+========================================
+----------------------------------------
+........................................
+         If you can read this statement, it is proven that you have configured printer successfully. Tset
+........................................
+----------------------------------------
+========================================
+
+
+.
+

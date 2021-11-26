@@ -1,0 +1,2 @@
+DELETE FROM employees WHERE id=101000101;
+insert into employees(id,code,employee_category_id,department_id,status,sex,dob,f_name,m_name,l_name,doj,wage_type,address,country,zip_code,phone,fax,email,loc_address,loc_country,loc_zip_code,loc_phone,card_no,loc_fax,cost_per_hour,over_time_pay_rate,work_permit,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000101","E1","1","1","1","M","1999-02-17","Arjun","","G",null,"1","","","","","","","","","","","1010","","100.00000","0.20000","","0","2021-09-20 08:15:04.0",null,null,"0","0");

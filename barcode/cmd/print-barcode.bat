@@ -1,0 +1,1 @@
+copy  %1 \\192.168.1.57\GTextOnly\  /Z /Y >> .\logs/bcprinter.log 

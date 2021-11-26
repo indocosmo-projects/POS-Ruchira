@@ -1,0 +1,4 @@
+DELETE FROM customer_types WHERE id=101000101;
+insert into customer_types(id,code,name,description,is_ar,default_price_variance_pc,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000101","ROOM","ROOM","","0","0.00000","101000101","2021-11-13 12:25:39.0",null,null,"0","0");
+DELETE FROM customers WHERE id=101000101;
+insert into customers(id,code,name,category,shop_id,customer_type,is_valid,card_no,address,street,city,state,state_code,country,zip_code,phone,fax,email,is_ar,ar_code,joining_date,accumulated_points,redeemed_points,cst_no,license_no,tin,gst_reg_type,gst_party_type,bank_name,bank_branch,bank_address,bank_ifsc_code,bank_micr_code,bank_account_no,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000101","101","101",null,null,"101000101","1","","niko","","","","","","","","","","1","a","2021-11-13",null,null,"","","",null,null,"","","","","","","101000101","2021-11-13 12:26:17.0",null,null,"0","0");

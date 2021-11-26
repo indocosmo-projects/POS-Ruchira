@@ -1,0 +1,36 @@
+Date & Time:Mon, 12 Jul 2021 14:05:22 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Mon, 12 Jul 2021 14:05:22 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://127.0.0.1:3306/posella_pandhal_test_v1
+
+
+Date & Time:Mon, 12 Jul 2021 14:05:24 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Mon, 12 Jul 2021 14:05:24 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Mon, 12 Jul 2021 14:05:27 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Mon, 12 Jul 2021 14:05:27 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File SHP01-T1-202107120205
+
+

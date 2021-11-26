@@ -1,0 +1,10 @@
+DELETE FROM serving_tables WHERE id=101000102;
+insert into serving_tables(id,code,name,description,is_valid,covers,row_position,column_position,serving_table_location_id,layout_image,status,created_by,created_at,updated_by,updated_at,is_system,is_deleted,last_sync_at) values ("101000102","T02","Tbl 2",null,"1","4",null,null,"101000101","1","1","0","2020-07-18 21:14:22.0",null,null,"0","0","2020-07-18 21:14:22.0");
+DELETE FROM serving_tables WHERE id=101000103;
+insert into serving_tables(id,code,name,description,is_valid,covers,row_position,column_position,serving_table_location_id,layout_image,status,created_by,created_at,updated_by,updated_at,is_system,is_deleted,last_sync_at) values ("101000103","T03","Tbl 3",null,"1","4",null,null,"101000101","1","1","0","2020-07-18 21:14:43.0",null,null,"0","0","2020-07-18 21:14:43.0");
+DELETE FROM serving_tables WHERE id=101000104;
+insert into serving_tables(id,code,name,description,is_valid,covers,row_position,column_position,serving_table_location_id,layout_image,status,created_by,created_at,updated_by,updated_at,is_system,is_deleted,last_sync_at) values ("101000104","T04","Tbl 4",null,"1","4",null,null,"101000101","1","1","0","2020-07-18 21:15:17.0",null,null,"0","0","2020-07-18 21:15:17.0");
+DELETE FROM serving_tables WHERE id=101000105;
+insert into serving_tables(id,code,name,description,is_valid,covers,row_position,column_position,serving_table_location_id,layout_image,status,created_by,created_at,updated_by,updated_at,is_system,is_deleted,last_sync_at) values ("101000105","T05","Tbl 5",null,"1","4",null,null,"101000101","1","1","0","2020-07-18 21:15:40.0",null,null,"0","0","2020-07-18 21:15:40.0");
+DELETE FROM serving_tables WHERE id=101000106;
+insert into serving_tables(id,code,name,description,is_valid,covers,row_position,column_position,serving_table_location_id,layout_image,status,created_by,created_at,updated_by,updated_at,is_system,is_deleted,last_sync_at) values ("101000106","T06","Tbl 6",null,"1","4",null,null,"101000101","1","1","0","2020-07-18 21:16:00.0",null,null,"0","0","2020-07-18 21:16:00.0");

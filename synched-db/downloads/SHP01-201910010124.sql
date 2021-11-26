@@ -1,0 +1,10 @@
+DELETE FROM stations WHERE id=101000105;
+insert into stations(id,code,name,description,type,created_by,created_at,updated_by,updated_at,is_deleted,is_system,last_sync_at) values ("101000105","KOT01","KOT 01","","2","0","2019-10-01 01:22:38.0",null,null,"0","0","2019-10-01 01:22:38.0");
+DELETE FROM stations WHERE id=101000106;
+insert into stations(id,code,name,description,type,created_by,created_at,updated_by,updated_at,is_deleted,is_system,last_sync_at) values ("101000106","KOT02","KOT 02","","3","0","2019-10-01 01:22:59.0",null,null,"0","0","2019-10-01 01:22:59.0");
+DELETE FROM stations WHERE id=101000107;
+insert into stations(id,code,name,description,type,created_by,created_at,updated_by,updated_at,is_deleted,is_system,last_sync_at) values ("101000107","PMT02","Payment Ter.2","","2","0","2019-10-01 01:23:18.0",null,null,"0","0","2019-10-01 01:23:18.0");
+DELETE FROM stations WHERE id=101000108;
+insert into stations(id,code,name,description,type,created_by,created_at,updated_by,updated_at,is_deleted,is_system,last_sync_at) values ("101000108","KOT03","KOT 03","","3","0","2019-10-01 01:23:33.0",null,null,"0","0","2019-10-01 01:23:33.0");
+DELETE FROM kitchens WHERE id=101000101;
+insert into kitchens(id,code,name,description,printer_name,printer_port,created_by,created_at,updated_by,updated_at,is_deleted,is_system,last_sync_at) values ("101000101","KTCH01","Main Kitchen","Main Kitchen","",null,"0","2019-10-01 01:24:01.0",null,null,"0","0","2019-10-01 01:24:01.0");

@@ -1,0 +1,5 @@
+DELETE FROM shop_users WHERE id=9;
+insert into shop_users(id,shop_id,user_id,user_group_id,is_deleted) values ("9","101","101000101","1","0");
+DELETE FROM users WHERE id=101000101;
+insert into users(id,code,name,card_no,user_group_id,employee_id,password,valid_from,valid_to,is_active,is_admin,email,lastlogin_date,token_id,token_expire_time,created_by,created_at,updated_by,updated_at,is_deleted,is_system) values ("101000101","1001","manager","1000","1",null,"a9b7ba70783b617e9998dc4dd82eb3c5",null,null,"1","0","",null,null,null,"0","2021-11-03 05:54:45.0",null,null,"0","0");
+update users set id="101000101", code="1001", name="manager", card_no="1000", user_group_id="1", employee_id=null, password="a9b7ba70783b617e9998dc4dd82eb3c5", valid_from=null, valid_to=null, is_active="1", is_admin="0", email="", lastlogin_date=null, token_id=null, token_expire_time=null, created_by="0", created_at="2021-11-03 05:54:45.0", updated_by=null, updated_at=null, is_deleted="0", is_system="0" where id=101000101 and is_deleted = 0 and is_synchable = 1;

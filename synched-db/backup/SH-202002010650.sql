@@ -1,0 +1,1 @@
+update area_codes set id="101", code="FK", name="FORT KOCHI", description="", created_by="0", created_at="2020-01-24 09:43:55.0", updated_by="0", updated_at="2020-02-01 05:19:58.0", is_system="0", is_deleted="0" where id=101 and is_deleted = 0 and is_synchable = 1;

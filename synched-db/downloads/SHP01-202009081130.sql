@@ -1,0 +1,15 @@
+DELETE FROM sale_item_display_order WHERE id=101000583;
+insert into sale_item_display_order(id,menu_id,sub_class_id,sale_item_id,display_order,is_deleted) values ("101000583","101000101","106","153","1","0");
+DELETE FROM sale_item_display_order WHERE id=101000584;
+insert into sale_item_display_order(id,menu_id,sub_class_id,sale_item_id,display_order,is_deleted) values ("101000584","101000101","106","154","2","0");
+DELETE FROM sale_item_display_order WHERE id=101000585;
+insert into sale_item_display_order(id,menu_id,sub_class_id,sale_item_id,display_order,is_deleted) values ("101000585","101000101","106","156","3","0");
+DELETE FROM sale_item_display_order WHERE id=101000586;
+insert into sale_item_display_order(id,menu_id,sub_class_id,sale_item_id,display_order,is_deleted) values ("101000586","101000101","106","158","4","0");
+DELETE FROM sale_item_display_order WHERE id=101000587;
+insert into sale_item_display_order(id,menu_id,sub_class_id,sale_item_id,display_order,is_deleted) values ("101000587","101000101","106","249","5","0");
+update sale_item_display_order set id="101000583", menu_id="101000101", sub_class_id="106", sale_item_id="153", display_order="1", is_deleted="0" where id=101000583 and is_deleted = 0 and is_synchable = 1;
+update sale_item_display_order set id="101000584", menu_id="101000101", sub_class_id="106", sale_item_id="154", display_order="2", is_deleted="0" where id=101000584 and is_deleted = 0 and is_synchable = 1;
+update sale_item_display_order set id="101000585", menu_id="101000101", sub_class_id="106", sale_item_id="156", display_order="3", is_deleted="0" where id=101000585 and is_deleted = 0 and is_synchable = 1;
+update sale_item_display_order set id="101000586", menu_id="101000101", sub_class_id="106", sale_item_id="158", display_order="4", is_deleted="0" where id=101000586 and is_deleted = 0 and is_synchable = 1;
+update sale_item_display_order set id="101000587", menu_id="101000101", sub_class_id="106", sale_item_id="249", display_order="5", is_deleted="0" where id=101000587 and is_deleted = 0 and is_synchable = 1;

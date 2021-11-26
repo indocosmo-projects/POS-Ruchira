@@ -1,0 +1,36 @@
+Date & Time:Mon, 01 Nov 2021 10:37:43 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Starting...
+
+
+Date & Time:Mon, 01 Nov 2021 10:37:43 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : JDBC_CONNECTION_STRING :jdbc:mysql://192.168.1.38:3306/pos_pms_sync_db
+
+
+Date & Time:Mon, 01 Nov 2021 10:37:46 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Preparation Completed
+
+
+Date & Time:Mon, 01 Nov 2021 10:37:46 IST
+Module : PosMysqlBackup
+Method : createMysqlBackup
+Message : DB Backup Storage Completed
+
+
+Date & Time:Mon, 01 Nov 2021 10:37:53 IST
+Module : PosBackup
+Method : deleteOldBackup
+Message :  Total No of backup 6
+
+
+Date & Time:Mon, 01 Nov 2021 10:37:53 IST
+Module : PosBackup
+Method : createFilteredBackup
+Message : Backup File 101-101-202111011037
+
+

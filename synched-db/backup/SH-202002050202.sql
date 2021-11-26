@@ -1,0 +1,16 @@
+update stock_items set is_deleted=1 where id =101000323;
+update sale_items set is_deleted=1 where id =101000323;
+update stock_items set is_deleted=1 where id =101000322;
+update sale_items set is_deleted=1 where id =101000322;
+update stock_items set is_deleted=1 where id =101000321;
+update sale_items set is_deleted=1 where id =101000321;
+update stock_items set is_deleted=1 where id =101000320;
+update sale_items set is_deleted=1 where id =101000320;
+update stock_items set is_deleted=1 where id =101000319;
+update sale_items set is_deleted=1 where id =101000319;
+update stock_items set is_deleted=1 where id =101000318;
+update sale_items set is_deleted=1 where id =101000318;
+update stock_items set is_deleted=1 where id =101000317;
+update sale_items set is_deleted=1 where id =101000317;
+update stock_items set is_deleted=1 where id =101000316;
+update sale_items set is_deleted=1 where id =101000316;
